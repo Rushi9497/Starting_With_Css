@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diffrent Way To Add Css</title>
+
+    <!-- 1st Way To Add Css (Internal)-->
+    <style>
+        body {
+            background-color:black;
+        }
+       h2{
+        color: aqua;
+       }
+       p {
+        color: red;
+       }
+    </style>
+</head>
+<body>
+    <h2>Diffrent Way To Add Css</h2>
+    <p><b>There are 3 way to add </b></p>
+
+    <!-- Here We Use Inline To Add Css -->
+    <ol style="color: brown;"> 
+        <li>Internal</li>
+        <li>External</li>
+        <li>Inline</li>
+    </ol>
+
+       
+    <!-- 1st Way To Add Css (External)-->
+    <link rel="stylesheet" href="index.Css">
+
+
+    <div class="Para">
+        <h3>When targeting the same elements with inline, internal, and external CSS</h3>
+
+    <p>When targeting the same elements with inline, internal, and external CSS, 
+        the style that comes later will override the earlier style. 
+        This is because CSS stands for “Cascading Style Sheets,” which means that 
+        styles can inherit and override other styles.</p>
+        <ul>
+            <li>Inline: Inline styles have the highest precedence and override all other styles.</li>
+            <li> Internal: Internal CSS overrides external CSS.</li>
+            <li> External: External CSS overrides browser defaults.</li>
+        </ul>
+    </div>
+</body>
+</html>
